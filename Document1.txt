@@ -1,0 +1,250 @@
+@@ -0,0 +1,249 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+
+xmlns:io9="http://schemas.delta.com/ancillaryproductoffer/retrieveofferresponsetypes/v1" xmlns:io21="http://schemas.delta.com/offerservicelistrs/v1" 
+
+xmlns:io43="http://schemas.delta.com/common/warnings" xmlns:io22="http://schemas.delta.com/common/responseinfo/v1" 
+
+xmlns:io35="http://schemas.delta.com/common/extendedtripinfo" 
+
+xmlns:io46="http://schemas.delta.com/common/ancillaryproductcommontypes/v1"><soapenv:Body><io9:RetrieveOfferResponse 
+
+xmlns:ns31="http://schemas.delta.com/quotecommontypes/ancillaryproducts/v1" xmlns:ns53="http://schemas.delta.com/ancillaryproductorder/retrieveorderrequesttypes/v1" 
+
+xmlns:ns30="http://schemas.delta.com/ancillaryproductquote/retrievesavedproductsresponsetypes/v1" 
+
+xmlns:ns52="http://schemas.delta.com/ancillaryproductcatalog/retrieveproductsresponsetypes/v1" xmlns:ns51="http://schemas.delta.com/payment/countrybindatatypes/v1" 
+
+xmlns:ns8="http://schemas.delta.com/common/requestinfo/v4" xmlns:ns50="http://schemas.delta.com/common/printer/v4" 
+
+xmlns:ns7="http://schemas.delta.com/ancillarycommontypes/v1" xmlns:ns13="http://schemas.delta.com/common/error/v5" 
+
+xmlns:ns35="http://schemas.delta.com/common/checkhealth/v3" xmlns:ns12="http://schemas.delta.com/ancillaryproductcatalog/retrieveproductsrequesttypes/v1" 
+
+xmlns:ns34="http://schemas.delta.com/payment/transactiondatatype" xmlns:ns9="http://schemas.delta.com/common/userauthdata/v2" 
+
+xmlns:ns11="http://schemas.delta.com/common/stamping/v2" xmlns:ns33="http://schemas.delta.com/ancillaryproductquote/saveproductsresponsetypes/v1" 
+
+xmlns:ns10="http://schemas.delta.com/common/ptrauthdata/v2" xmlns:ns32="http://schemas.delta.com/ancillaryproductquote/saveproductsrequesttypes/v1" 
+
+xmlns:ns54="http://schemas.delta.com/common/requestinfo/v5" xmlns:ns17="http://schemas.delta.com/common/pointofsaleinfo/v1" 
+
+xmlns:ns39="http://schemas.delta.com/common/requestoption/v1" xmlns:ns16="http://schemas.delta.com/offerservicelistrq/v1" 
+
+xmlns:ns38="http://schemas.delta.com/common/hostcontext/v1" xmlns:ns15="http://schemas.delta.com/ancillaryproductoffer/retrieveofferrequesttypes/v1" 
+
+xmlns:ns37="http://schemas.delta.com/common/fault/v4" xmlns:ns14="http://schemas.delta.com/common/externalagencytypes/v1" 
+
+xmlns:ns36="http://schemas.delta.com/common/debuginfo/v4" xmlns:ns19="http://schemas.delta.com/ancillaryproductorder/cancelpurchaserequesttypes/v1" 
+
+xmlns:ns18="http://schemas.delta.com/ordercommontypes/v1" xmlns:ns20="http://schemas.delta.com/ancillaryproductorder/cancelpurchaseresponsetypes/v1" 
+
+xmlns:ns42="http://schemas.delta.com/common/pnrrequestparams" xmlns:ns41="http://schemas.delta.com/common/pnr/v4" 
+
+xmlns:ns40="http://schemas.delta.com/common/advisorymessage/v2" xmlns:ns24="http://schemas.delta.com/payment/datatypes" 
+
+xmlns:ns46="http://schemas.delta.com/common/passengertypecode" xmlns:ns23="http://schemas.delta.com/common/error/v4" 
+
+xmlns:ns45="http://schemas.delta.com/common/auditflag/v2" xmlns:ns22="http://schemas.delta.com/payment/formofpaymenttypes/v1" 
+
+xmlns:ns44="http://schemas.delta.com/common/pnroptions" xmlns:ns21="http://schemas.delta.com/ancillaryproductorder/purchaseproductsrequesttypes/v1" 
+
+xmlns:ns43="http://schemas.delta.com/common/pnrcommontypes/v2" xmlns:ns28="http://schemas.delta.com/ancillaryproductorder/retrieveorderresponsetypes/v1" 
+
+xmlns:ns27="http://schemas.delta.com/ancillaryproductorder/purchaseproductsresponsetypes/v1" xmlns:ns49="http://schemas.delta.com/common/shippinginfo" 
+
+xmlns:ns26="http://schemas.delta.com/common/exbprintstream" xmlns:ns48="http://schemas.delta.com/common/segmentinfo/v4" 
+
+xmlns:ns25="http://schemas.delta.com/miscdocprocesstypes/v1" xmlns:ns47="http://schemas.delta.com/common/passengerinfo/v2" 
+
+xmlns:ns29="http://schemas.delta.com/ancillaryproductquote/retrievesavedproductsrequesttypes/v1"><io9:Offer 
+
+OfferNumber="****************************************"><io9:TotalPrice></io9:TotalPrice></io9:Offer><io9:OfferDetails><io21:OptionalServices><io21:CurrencyCode 
+
+NumberOfDecimals="2">USD</io21:CurrencyCode><io21:Service DisplayPriority="P" Method="F" OfferItemSequenceNumber="*" ProductId="DLU20_UP" ReasonCode="A" 
+
+ServiceCode="I" ServiceType="F" SubCode="DLU20_UP" Type="Included"><io21:TravelerIDRef>01-
+
+01</io21:TravelerIDRef><io21:SegmentIDRef>01</io21:SegmentIDRef><io21:Description>All Seats from W cabin to F 
+
+cabin</io21:Description><io21:DescriptionDetails><io21:Text>All Seats from W cabin to F 
+
+cabin</io21:Text></io21:DescriptionDetails><io21:Amount>0.00</io21:Amount><io21:Attributes><io21:Group><io21:Code>UPSEATS</io21:Code></io21:Group></io21:Attributes><io
+
+21:BookingInstructions><io21:Method xmlns:ns6="http://soa.delta.com/ancillaryofferservice/v1" xmlns:ns5="http://schemas.delta.com/ancillarycommontypes/v1" 
+
+xmlns:ns7="http://schemas.delta.com/offerservicelistrs/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">API</io21:Method></io21:BookingInstructions><io21:Diagnostics 
+
+ID="000000002D5A3230"></io21:Diagnostics><io21:Seats FlightSeg="01"><io21:Seat Column="A" 
+
+Row="1"><io21:Chr>K</io21:Chr><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="B" 
+
+Row="1"><io21:Chr>K</io21:Chr><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" 
+
+Row="1"><io21:Chr>K</io21:Chr><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="D" 
+
+Row="1"><io21:Chr>K</io21:Chr><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="A" Row="3"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat 
+
+Column="D" Row="4"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="A" Row="5"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" 
+
+Row="5"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="D" Row="5"><io21:Chr>UF</io21:Chr></io21:Seat></io21:Seats><io21:Rules><io21:Category Code="BARTSCode" 
+
+Type="Remark" Value="DLA"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">DLA</io21:Text></io21:RueText></io21:Category><io21:Category Code="economycomfort" Type="Remark" Value="1"><io21:RueText><io21:Text 
+
+xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">true</io21:Text></io21:RueText></io21:Category><io21:Category Code="ExchangeRate" Name="ExchangeRate" Type="Remark" 
+
+Value="1"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">ExchangeRate</io21:Text></io21:RueText></io21:Category><io21:Category Code="applicableUpsellProductId" Name="applicableUpsellProductId" 
+
+Type="Remark" Value="DLU20"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">applicableUpsellProductId</io21:Text></io21:RueText></io21:Category><io21:Category Code="DocumentIssueNeeded" Name="DocumentIssueNeeded" 
+
+Type="Remark" Value="N"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">DocumentIssueNeeded</io21:Text></io21:RueText></io21:Category></io21:Rules></io21:Service><io21:Service DisplayPriority="P" Method="F" 
+
+OfferItemSequenceNumber="*" ProductId="DLU20_UP" ReasonCode="A" ServiceCode="I" ServiceType="F" SubCode="DLU20_UP" Type="Included"><io21:TravelerIDRef>01-
+
+01</io21:TravelerIDRef><io21:SegmentIDRef>02</io21:SegmentIDRef><io21:Description>All Seats from W cabin to F 
+
+cabin</io21:Description><io21:DescriptionDetails><io21:Text>All Seats from W cabin to F 
+
+cabin</io21:Text></io21:DescriptionDetails><io21:Amount>0.00</io21:Amount><io21:Attributes><io21:Group><io21:Code>UPSEATS</io21:Code></io21:Group></io21:Attributes><io
+
+21:BookingInstructions><io21:Method xmlns:ns6="http://soa.delta.com/ancillaryofferservice/v1" xmlns:ns5="http://schemas.delta.com/ancillarycommontypes/v1" 
+
+xmlns:ns7="http://schemas.delta.com/offerservicelistrs/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">API</io21:Method></io21:BookingInstructions><io21:Diagnostics 
+
+ID="000000002D5A3230"></io21:Diagnostics><io21:Seats FlightSeg="02"><io21:Seat Column="A" 
+
+Row="1"><io21:Chr>K</io21:Chr><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" 
+
+Row="1"><io21:Chr>K</io21:Chr><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="D" 
+
+Row="1"><io21:Chr>K</io21:Chr><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="A" Row="2"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat 
+
+Column="C" Row="2"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="D" Row="2"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="A" 
+
+Row="3"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" Row="3"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="D" 
+
+Row="3"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="A" Row="4"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" 
+
+Row="4"><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="D" Row="4"><io21:Chr>UF</io21:Chr></io21:Seat></io21:Seats><io21:Rules><io21:Category Code="BARTSCode" 
+
+Type="Remark" Value="DLA"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">DLA</io21:Text></io21:RueText></io21:Category><io21:Category Code="economycomfort" Type="Remark" Value="1"><io21:RueText><io21:Text 
+
+xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">true</io21:Text></io21:RueText></io21:Category><io21:Category Code="ExchangeRate" Name="ExchangeRate" Type="Remark" 
+
+Value="1"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">ExchangeRate</io21:Text></io21:RueText></io21:Category><io21:Category Code="applicableUpsellProductId" Name="applicableUpsellProductId" 
+
+Type="Remark" Value="DLU20"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">applicableUpsellProductId</io21:Text></io21:RueText></io21:Category><io21:Category Code="DocumentIssueNeeded" Name="DocumentIssueNeeded" 
+
+Type="Remark" Value="N"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">DocumentIssueNeeded</io21:Text></io21:RueText></io21:Category></io21:Rules></io21:Service><io21:Service DisplayPriority="P" Method="F" 
+
+OfferItemSequenceNumber="*" ProductId="DLU21_UP" ReasonCode="A" ServiceCode="I" ServiceType="F" SubCode="DLU21_UP" Type="Included"><io21:TravelerIDRef>01-
+
+01</io21:TravelerIDRef><io21:SegmentIDRef>03</io21:SegmentIDRef><io21:Description>All Seats from W cabin to Delta One 
+
+cabin</io21:Description><io21:DescriptionDetails><io21:Text>All Seats from W cabin to Delta One 
+
+cabin</io21:Text></io21:DescriptionDetails><io21:Amount>0.00</io21:Amount><io21:Attributes><io21:Group><io21:Code>UPSEATS</io21:Code></io21:Group></io21:Attributes><io
+
+21:BookingInstructions><io21:Method xmlns:ns6="http://soa.delta.com/ancillaryofferservice/v1" xmlns:ns5="http://schemas.delta.com/ancillarycommontypes/v1" 
+
+xmlns:ns7="http://schemas.delta.com/offerservicelistrs/v1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">API</io21:Method></io21:BookingInstructions><io21:Diagnostics 
+
+ID="000000002D5A98B0"></io21:Diagnostics><io21:Seats FlightSeg="03"><io21:Seat Column="A" 
+
+Row="1"><io21:Chr>K</io21:Chr><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="D" 
+
+Row="1"><io21:Chr>K</io21:Chr><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="B" 
+
+Row="2"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" Row="2"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat 
+
+Column="B" Row="3"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" 
+
+Row="3"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="B" Row="4"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat 
+
+Column="C" Row="4"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="B" 
+
+Row="5"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" Row="5"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat 
+
+Column="D" Row="5"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="A" 
+
+Row="6"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="B" Row="6"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat 
+
+Column="C" Row="6"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="B" 
+
+Row="7"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" Row="7"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat 
+
+Column="D" Row="7"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="A" 
+
+Row="8"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="B" Row="8"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat 
+
+Column="C" Row="8"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="D" 
+
+Row="8"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="A" Row="9"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat 
+
+Column="B" Row="9"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="C" 
+
+Row="9"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat><io21:Seat Column="D" 
+
+Row="9"><io21:Chr>NS</io21:Chr><io21:Chr>UF</io21:Chr></io21:Seat></io21:Seats><io21:Rules><io21:Category Code="BARTSCode" Type="Remark" 
+
+Value="DLC"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">DLC</io21:Text></io21:RueText></io21:Category><io21:Category Code="economycomfort" Type="Remark" Value="1"><io21:RueText><io21:Text 
+
+xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">true</io21:Text></io21:RueText></io21:Category><io21:Category Code="ExchangeRate" Name="ExchangeRate" Type="Remark" 
+
+Value="1"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">ExchangeRate</io21:Text></io21:RueText></io21:Category><io21:Category Code="applicableUpsellProductId" Name="applicableUpsellProductId" 
+
+Type="Remark" Value="DLU21"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">applicableUpsellProductId</io21:Text></io21:RueText></io21:Category><io21:Category Code="DocumentIssueNeeded" Name="DocumentIssueNeeded" 
+
+Type="Remark" Value="N"><io21:RueText><io21:Text xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:type="xs:string">DocumentIssueNeeded</io21:Text></io21:RueText></io21:Category></io21:Rules></io21:Service></io21:OptionalServices></io9:OfferDetails><io9:Regulato
+
+ryAdvisoryDetail></io9:RegulatoryAdvisoryDetail><io46:TravelerInfo AssociationID="01-01" FirstName="KAVYA" FirstNameNumber="**" LastName="REDDY" 
+
+LastNameNumber="**"></io46:TravelerInfo><io46:FlightInfo ArrivalAirportCd="PDX" AssociationID="01" ClassOfService="W" DepartureAirportCd="ATL" DepartureDate="2017-12-
+
+10" FlightDepartureTime="09:57" MarketingCarrierCode="DL" MarketingFlightNumber="****" OperatingCarrierCode="DL" OperatingFlightNumber="****" 
+
+SegmentNumber="**"></io46:FlightInfo><io46:FlightInfo ArrivalAirportCd="SEA" AssociationID="02" ClassOfService="W" DepartureAirportCd="PDX" DepartureDate="2017-12-10" 
+
+FlightDepartureTime="13:10" MarketingCarrierCode="DL" MarketingFlightNumber="****" OperatingCarrierCode="DL" OperatingFlightNumber="****" 
+
+SegmentNumber="**"></io46:FlightInfo><io46:FlightInfo ArrivalAirportCd="PEK" AssociationID="03" ClassOfService="W" DepartureAirportCd="SEA" DepartureDate="2017-12-10" 
+
+FlightDepartureTime="16:02" MarketingCarrierCode="DL" MarketingFlightNumber="****" OperatingCarrierCode="DL" OperatingFlightNumber="****" 
+
+SegmentNumber="**"></io46:FlightInfo></io9:RetrieveOfferResponse></soapenv:Body></soapenv:Envelope>

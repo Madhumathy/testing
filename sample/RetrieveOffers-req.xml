@@ -1,0 +1,69 @@
+<soapenv:Envelope 
+
+xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><ns12:RetrieveOfferRequest 
+
+xmlns:ns12="http://schemas.delta.com/ancillaryproductoffer/retrieveofferrequesttypes/v1" xmlns="http://schemas.delta.com/ancillarycommontypes/v1" 
+
+xmlns:ns2="http://schemas.delta.com/common/requestinfo/v4" xmlns:ns4="http://schemas.delta.com/common/ptrauthdata/v2" 
+
+xmlns:ns3="http://schemas.delta.com/common/userauthdata/v2" xmlns:ns53="http://schemas.delta.com/ancillaryproductorder/retrieveorderrequesttypes/v1" 
+
+xmlns:ns6="http://schemas.delta.com/ancillaryproductcatalog/retrieveproductsrequesttypes/v1" xmlns:ns5="http://schemas.delta.com/common/stamping/v2" 
+
+xmlns:ns52="http://schemas.delta.com/ancillaryproductcatalog/retrieveproductsresponsetypes/v1" xmlns:ns51="http://schemas.delta.com/payment/countrybindatatypes/v1" 
+
+xmlns:ns8="http://schemas.delta.com/common/warnings" xmlns:ns50="http://schemas.delta.com/common/printer/v4" 
+
+xmlns:ns7="http://schemas.delta.com/common/responseinfo/v1" xmlns:ns13="http://schemas.delta.com/common/extendedtripinfo" 
+
+xmlns:ns9="http://schemas.delta.com/common/error/v5" xmlns:ns11="http://schemas.delta.com/common/externalagencytypes/v1" 
+
+xmlns:ns10="http://schemas.delta.com/common/ancillaryproductcommontypes/v1" xmlns:ns54="http://schemas.delta.com/common/requestinfo/v5" 
+
+xmlns:ns17="http://schemas.delta.com/ancillaryproductoffer/retrieveofferresponsetypes/v1" xmlns:ns16="http://schemas.delta.com/offerservicelistrs/v1" 
+
+xmlns:ns15="http://schemas.delta.com/common/pointofsaleinfo/v1" xmlns:ns14="http://schemas.delta.com/offerservicelistrq/v1" 
+
+xmlns:ns19="http://schemas.delta.com/ancillaryproductorder/cancelpurchaserequesttypes/v1" xmlns:ns18="http://schemas.delta.com/ordercommontypes/v1" 
+
+xmlns:ns42="http://schemas.delta.com/common/pnrrequestparams" xmlns:ns41="http://schemas.delta.com/common/pnr/v4" 
+
+xmlns:ns40="http://schemas.delta.com/common/advisorymessage/v2" xmlns:ns46="http://schemas.delta.com/common/passengertypecode" 
+
+xmlns:ns45="http://schemas.delta.com/common/auditflag/v2" xmlns:ns44="http://schemas.delta.com/common/pnroptions" 
+
+xmlns:ns43="http://schemas.delta.com/common/pnrcommontypes/v2" xmlns:ns49="http://schemas.delta.com/common/shippinginfo" 
+
+xmlns:ns48="http://schemas.delta.com/common/segmentinfo/v4" xmlns:ns47="http://schemas.delta.com/common/passengerinfo/v2" 
+
+xmlns:ns31="http://schemas.delta.com/quotecommontypes/ancillaryproducts/v1" 
+
+xmlns:ns30="http://schemas.delta.com/ancillaryproductquote/retrievesavedproductsresponsetypes/v1" xmlns:ns35="http://schemas.delta.com/common/checkhealth/v3" 
+
+xmlns:ns34="http://schemas.delta.com/payment/transactiondatatype" xmlns:ns33="http://schemas.delta.com/ancillaryproductquote/saveproductsresponsetypes/v1" 
+
+xmlns:ns32="http://schemas.delta.com/ancillaryproductquote/saveproductsrequesttypes/v1" xmlns:ns39="http://schemas.delta.com/common/requestoption/v1" 
+
+xmlns:ns38="http://schemas.delta.com/common/hostcontext/v1" xmlns:ns37="http://schemas.delta.com/common/fault/v4" 
+
+xmlns:ns36="http://schemas.delta.com/common/debuginfo/v4" xmlns:ns20="http://schemas.delta.com/ancillaryproductorder/cancelpurchaseresponsetypes/v1" 
+
+xmlns:ns24="http://schemas.delta.com/payment/datatypes" xmlns:ns23="http://schemas.delta.com/common/error/v4" 
+
+xmlns:ns22="http://schemas.delta.com/payment/formofpaymenttypes/v1" xmlns:ns21="http://schemas.delta.com/ancillaryproductorder/purchaseproductsrequesttypes/v1" 
+
+xmlns:ns28="http://schemas.delta.com/ancillaryproductorder/retrieveorderresponsetypes/v1" 
+
+xmlns:ns27="http://schemas.delta.com/ancillaryproductorder/purchaseproductsresponsetypes/v1" xmlns:ns26="http://schemas.delta.com/common/exbprintstream" 
+
+xmlns:ns25="http://schemas.delta.com/miscdocprocesstypes/v1" 
+
+xmlns:ns29="http://schemas.delta.com/ancillaryproductquote/retrievesavedproductsrequesttypes/v1"><ns2:RequestInfo AppChannelName="MyTrips" ApplicationId="DC" 
+
+DebugOptions="" TestLab="TPB" TransactionId="POLmytrips-qat4-2f30390dfea44b38b310465c6c2523fb-
+
+7073620ec62643a2bf5bdbd255196515"></ns2:RequestInfo><ns12:RetrieveOfferInfoRequest ConsiderItineraryForOffer="true" CurrencyCd="USD" RecordLocator="H6TPGE" 
+
+ReturnDetailedOffer="true"><ProductGroups><ProductGroup><ProductGroupName>UPSELL</ProductGroupName></ProductGroup></ProductGroups></ns12:RetrieveOfferInfoRequest></ns1
+
+2:RetrieveOfferRequest></soapenv:Body></soapenv:Envelope>
