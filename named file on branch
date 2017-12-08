@@ -1,0 +1,16 @@
+<soapenv:Envelope
+xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+<soapenv:Body>
+<ns9:AuthenticateCustRequest
+xmlns:ns9="http://data.dao.profiledao.ecom.delta.com/"
+xmlns:ns6="http://ecom.delta.com/data/cart"
+xmlns:ns5="http://ecom.delta.com/data/loyalty/skyclub/"
+xmlns:ns8="http://ecom.delta.com/data/edocument"
+xmlns:ns7="http://ecom.delta.com/data/customer/customerprofile/"
+xmlns:ns2="http://ecom.delta.com/data/common"
+xmlns:ns4="http://ecom.delta.com/data/ticketing"
+xmlns:ns3="http://ecom.delta.com/data/flight">
+<SkyMilesNumber>wrtjhtjo;</SkyMilesNumber>
+</ns9:AuthenticateCustRequest>
+</soapenv:Body>
+</soapenv:Envelope>
